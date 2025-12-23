@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevConnect 2023 | Tech Meetup</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Sticky Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg"></div>
+                <span class="text-xl font-bold text-gray-800">DevConnect</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-gray-600 hover:text-blue-600 font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">Home</a>
+                <a href="#schedule" class="text-gray-600 hover:text-blue-600 font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">Schedule</a>
+                <a href="#speakers" class="text-gray-600 hover:text-blue-600 font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">Speakers</a>
+                <a href="#venue" class="text-gray-600 hover:text-blue-600 font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">Venue</a>
+            </div>
+            
+            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                Get Tickets
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
+        <div class="container mx-auto px-4 flex flex-col items-center text-center">
+            <span class="bg-blue-500 text-blue-100 px-4 py-1 rounded-full text-sm font-medium mb-4">October 15, 2023 | San Francisco</span>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">DevConnect 2023</h1>
+            <p class="text-xl md:text-2xl max-w-2xl mb-8 text-blue-100">Join developers, designers, and tech enthusiasts for a day of learning, networking, and innovation.</p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                    Register Now
+                </button>
+                <button class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-white hover:bg-opacity-10 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                    View Schedule
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Event Schedule</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Morning Schedule -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">Morning Sessions</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex">
+                            <div class="text-blue-600 font-bold mr-4">9:00 AM</div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Registration & Welcome Coffee</h4>
+                                <p class="text-gray-600">Main Hall</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="text-blue-600 font-bold mr-4">10:00 AM</div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Keynote: The Future of Web Development</h4>
+                                <p class="text-gray-600">Sarah Johnson, TechLead at WebCorp</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="text-blue-600 font-bold mr-4">11:00 AM</div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Building Scalable APIs</h4>
+                                <p class="text-gray-600">Michael Chen, Senior Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Afternoon Schedule -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">Afternoon Sessions</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex">
+                            <div class="text-blue-600 font-bold mr-4">1:00 PM</div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Modern Frontend Frameworks</h4>
+                                <p class="text-gray-600">Alex Rodriguez, UI Specialist</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="text-blue-600 font-bold mr-4">2:30 PM</div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">AI & Machine Learning in Practice</h4>
+                                <p class="text-gray-600">Dr. Emily Watson, Data Scientist</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="text-blue-600 font-bold mr-4">4:00 PM</div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Networking & Closing Remarks</h4>
+                                <p class="text-gray-600">Main Hall</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Featured Speakers</h2>
+            <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">Meet our industry experts who will share their knowledge and experience.</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Speaker 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
+                    <div class="h-48 bg-gradient-to-r from-blue-500 to-indigo-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Sarah Johnson</h3>
+                        <p class="text-blue-600 font-medium mb-3">TechLead at WebCorp</p>
+                        <p class="text-gray-600 mb-4">Specializing in frontend architecture and developer experience with 10+ years in the industry.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Speaker 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
+                    <div class="h-48 bg-gradient-to-r from-green-500 to-teal-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Michael Chen</h3>
+                        <p class="text-blue-600 font-medium mb-3">Senior Backend Engineer</p>
+                        <p class="text-gray-600 mb-4">Expert in distributed systems and cloud infrastructure with a passion for developer tools.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Speaker 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
+                    <div class="h-48 bg-gradient-to-r from-purple-500 to-pink-600"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Alex Rodriguez</h3>
+                        <p class="text-blue-600 font-medium mb-3">UI/UX Specialist</p>
+                        <p class="text-gray-600 mb-4">Focuses on creating intuitive user interfaces and improving user experience across platforms.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-blue-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Section -->
+    <section id="venue" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Event Venue</h2>
+                <p class="text-gray-600 mb-8">Join us at the beautiful Tech Innovation Center in downtown San Francisco.</p>
+                
+                <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center mb-8">
+                    <p class="text-gray-500">Map or venue image would go here</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-6 text-left">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-gray-800 mb-2">Address</h3>
+                        <p class="text-gray-600">123 Innovation Way<br>San Francisco, CA 94105</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-gray-800 mb-2">Date & Time</h3>
+                        <p class="text-gray-600">October 15, 2023<br>9:00 AM - 5:00 PM</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-gray-800 mb-2">Contact</h3>
+                        <p class="text-gray-600">info@devconnect.com<br>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Don't Miss Out on DevConnect 2023</h2>
+            <p class="text-xl max-w-2xl mx-auto mb-8 text-blue-100">Join hundreds of developers for a day of learning, networking, and innovation. Limited seats available!</p>
+            <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                Register Now
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-8 h-8 bg-blue-500 rounded-lg"></div>
+                        <span class="text-xl font-bold">DevConnect</span>
+                    </div>
+                    <p class="text-gray-400">Connecting developers since 2018</p>
+                </div>
+                
+                <div class="flex space-x-6 mb-6 md:mb-0">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
+                
+                <div class="text-gray-400 text-sm">
+                    <p>&copy; 2023 DevConnect. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
